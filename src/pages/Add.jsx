@@ -44,7 +44,7 @@ const Add = () => {
             <div style={{margin: "2% 0"}}>
                 <input type="text" placeholder="cover" onChange={handleChange} name="cover" />
             </div>
-            <button onClick={handleSubmit} type="submit">Add Book</button>
+            <button className="formButton" onClick={handleSubmit} type="submit">Add Book</button>
         </div>
     )
 };
